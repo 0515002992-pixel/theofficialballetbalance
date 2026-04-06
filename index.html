@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Overtraining in Ballet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Overtraining in Ballet</h1>
+
+<p class="intro">
+This podcast dives into overtraining in ballet—why it happens, how it affects your body and mental health, and how dancers can stay strong without burning out.
+</p>
+
+<!-- 🎧 PODCAST -->
+<section>
+  <h2>Podcast 🎙️</h2>
+  <iframe src="https://drive.google.com/file/d/1WKjX4NyyQLUQZrrO61KtVJLZIsIMmZdq/preview" allow="autoplay"></iframe>
+</section>
+
+<!-- 🩰 WARMUP VIDEO -->
+<section>
+  <h2>Warming Up Video</h2>
+  <p>this video shows you an example of ballet stretching before class, i hope this video is useful!</p>
+  <iframe src="https://drive.google.com/file/d/1ncsemd4KtGSXqre-fHMs_HXHNpz5Jlso/preview" allow="autoplay"></iframe>
+</section>
+
+<!-- 🖼️ E-FLYER -->
+<section>
+  <h2>E-Flyer</h2>
+  <img src="D85F8589-0005-4E96-9A71-3F2C957B99AC.jpeg" class="flyer">
+  <br>
+  <a href="D85F8589-0005-4E96-9A71-3F2C957B99AC.jpeg" target="_blank">
+    <button>View Full Flyer</button>
+  </a>
+</section>
+
+<!-- 💬 QUOTES -->
+<section>
+  <h2>Ballet Quotes 💭</h2>
+  <p id="quote">Click the button for a quote!</p>
+  <p id="author"></p>
+  <button onclick="newQuote()">New Quote</button>
+</section>
+
+<!-- 🎮 GAME -->
+<section class="game">
+  <h2>Mini Game 🎮</h2>
+  <p>Build Sophie and see if she stays healthy or overtrained.</p>
+
+  <div id="startBox">
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <div id="gameBox" style="display:none;">
+    <p id="question"></p>
+    <button onclick="answer(true)">Yes</button>
+    <button onclick="answer(false)">No</button>
+    <h3 id="result"></h3>
+  </div>
+</section>
+
+<!-- 📊 VIEW COUNTER -->
+<p id="views"></p>
+
+<!-- 📝 FEEDBACK -->
+<section>
+  <h2>Feedback 💌</h2>
+  <a href="https://forms.gle/ynA2YR28nH61ySi19" target="_blank">
+    <button>Give Feedback</button>
+  </a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
