@@ -1,0 +1,40 @@
+body {
+  font-family: Georgia, serif;
+  background: #f8eaea;
+  text-align: center;
+  color: #7a4f57;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+button {
+  background: #e6a4a4;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d88b8b;
+}
+
+iframe {
+  width: 80%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.flyer {
+  width: 80%;
+  border-radius: 10px;
+}
